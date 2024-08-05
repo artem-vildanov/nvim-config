@@ -1,13 +1,10 @@
-return { 
-  "lukas-reineke/indent-blankline.nvim", 
-  main = "ibl", 
+return {
+  "lukas-reineke/indent-blankline.nvim",
+  main = "ibl",
   config = function()
     require("ibl").setup({
-      indent = { highlight = highlight, char = "│" },
-      whitespace = {
-        highlight = highlight,
-        remove_blankline_trail = false,
-      },			
+      -- indent = { char = "│" },
+      indent = { char = "·" }
     })
-  end 
+  end
 }

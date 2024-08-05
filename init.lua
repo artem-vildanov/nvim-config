@@ -17,4 +17,3 @@ local opts = {}
 
 require("lazy").setup("plugins", opts)
 require("keymaps").setup()
-vim.lsp.set_log_level("debug")

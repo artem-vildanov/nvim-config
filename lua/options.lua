@@ -1,6 +1,6 @@
 
 local setup_windows_options = function()
-  if require("get_os_name").get_os_name() ~= 'Windows' then
+  if require("utils/get_os_name").get_os_name() ~= 'Windows' then
     return
   end
 

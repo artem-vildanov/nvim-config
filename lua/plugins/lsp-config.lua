@@ -20,7 +20,7 @@ local mason_lspconfig = {
 -- only for windows
 -- requires installed globaly typescript, @angular/language-server, @angular/language-service
 local function setup_angularls(lspconfig)
-  if require("get_os_name").get_os_name() ~= 'Windows' then
+  if require("../utils/get_os_name").get_os_name() ~= 'Windows' then
     return
   end
 

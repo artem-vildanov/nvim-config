@@ -10,7 +10,7 @@ end
 
 local function set_lsp_keymaps()
   set_keymap("<C-k>", vim.lsp.buf.signature_help)
-  set_keymap("<leader>f", vim.lsp.buf.format)
+  set_keymap("<leader>bf", vim.lsp.buf.format)
 end
 
 local function set_lsp_saga_keymaps()
